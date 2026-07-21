@@ -1,0 +1,28 @@
+{
+    "name": "integrabr/core",
+    "description": "Core Library for Integrabr all other libraries depend on.",
+    "type": "library",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Integrabr\\Core\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Roman Wanner",
+            "email": "60240491+daredloco@users.noreply.github.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Integrabr\\Core\\CoreServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^10",
+        "larastan/larastan": "^3.0"
+    }
+}
