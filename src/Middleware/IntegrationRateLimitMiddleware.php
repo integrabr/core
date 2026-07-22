@@ -9,7 +9,7 @@ use Illuminate\Http\Client\Response as ClientResponse;
 use Illuminate\Http\Response;
 use Illuminate\Support\Carbon;
 use Integrabr\Core\Exceptions\TooManyRequestsException;
-use Integrabr\Core\Jobs\Shared\BaseJob;
+use Integrabr\Core\Jobs\BaseJob;
 use Illuminate\Support\Facades\Cache;
 
 class IntegrationRateLimitMiddleware

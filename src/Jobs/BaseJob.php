@@ -1,6 +1,6 @@
 <?php 
 
-namespace Integrabr\Core\Jobs\Shared;
+namespace Integrabr\Core\Jobs;
 
 use Integrabr\Core\Middleware\IntegrationRateLimitMiddleware;
 use Illuminate\Bus\Batchable;
